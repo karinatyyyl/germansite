@@ -1423,8 +1423,8 @@ padding:40px 20px;
 display:grid;
 grid-template-columns:1fr 1fr;
 gap:14px;
-margin-top:-20px;
-padding:40px 20px 0;
+padding:80px 20px 0;
+margin-top:0;
 }
 
 .navigation-buttons .nav-btn{
@@ -1434,7 +1434,8 @@ justify-self:center;
 
 .navigation-buttons .nav-btn:last-child{
 grid-column:1 / span 2;
-justify-self:center;
+justify-self:end;
+margin-right:10px;
 width:60%;
 }
 
@@ -1452,25 +1453,7 @@ padding-bottom:30px;
 /* картинки */
 
 .page-5-images{
-display:flex;
-gap:12px;
-justify-content:flex-start;
-margin-top:20px;
-padding-left:10px;
-}
-
-.img-april{
-width:150px;
-}
-
-.img-tyl{
-width:120px;
-transform:translateX(-80px);
-}
-
-.img-rin{
-width:120px;
-transform:translateX(-120px);
+display:none;
 }
 
 /* отзывы */
@@ -1491,8 +1474,10 @@ margin-bottom:20px;
 display:flex;
 flex-direction:row;
 overflow-x:auto;
-gap:20px;
-padding:20px;
+gap:16px;
+
+padding:10px 20px 40px;
+
 scroll-snap-type:x mandatory;
 -webkit-overflow-scrolling:touch;
 }
@@ -1503,10 +1488,9 @@ display:none;
 
 .review-card{
 flex:0 0 85%;
-max-width:320px;
-min-height:260px;
 scroll-snap-align:center;
-transform:none !important;
+min-width:280px;
+max-width:320px;
 }
 
 .card-content{
@@ -1525,7 +1509,7 @@ padding-bottom:120px;
 }
 
 .page-6-footer{
-padding:0 20px 40px;
+padding:0 20px 10px;
 }
 
 /* стрелка */
