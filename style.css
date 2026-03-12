@@ -1406,6 +1406,9 @@ border-radius:20px;
 .page-1 .arrow{
 display:none !important;
 }
+  .scroll-section:first-of-type .arrow{
+display:none !important;
+}
 /* страницы */
 
 .page-2{
@@ -1460,7 +1463,7 @@ padding-bottom:30px;
 .page-5-images{
 display:flex;
 justify-content:center;
-margin-top:40px;
+margin-top:160px;
 clear:both;
 }
 
