@@ -1418,13 +1418,16 @@ padding:40px 20px;
 }
 
 /* ---------- PAGE 1 BUTTONS ---------- */
+  .page-1 .arrow{
+display:none;
+}
 
 .navigation-buttons{
 display:grid;
 grid-template-columns:1fr 1fr;
 gap:14px;
-padding:40px 20px 0;
-margin-top:40px;
+padding:120px 20px 0;
+margin-top:-60px;
 }
 
 .navigation-buttons .nav-btn{
@@ -1435,7 +1438,7 @@ justify-self:center;
 .navigation-buttons .nav-btn:last-child{
 grid-column:1 / span 2;
 justify-self:center;
-transform:translateX(-10px);
+transform:translateX(20px);
 width:60%;
 }
 
@@ -1455,7 +1458,7 @@ padding-bottom:30px;
 .page-5-images{
 display:flex;
 justify-content:center;
-margin-top:40px;
+margin-top:120px;
 }
 
 .img-april{
@@ -1516,7 +1519,7 @@ padding-bottom:120px;
 }
 
 .page-6-footer{
-padding:0 20px 0;
+padding:0 20px -20px;
 }
 
 /* стрелка */
