@@ -1340,6 +1340,7 @@ radial-gradient(circle 8px at var(--x10,-200px) var(--y10,-200px), transparent 4
     position:fixed;
    bottom:clamp(30px,6vw,80px);
 right:clamp(20px,6vw,80px);
+
     display:flex;
     align-items:center;
     gap:12px;
