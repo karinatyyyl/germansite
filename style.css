@@ -1404,8 +1404,9 @@ border-radius:20px;
 }
 
 /* страницы */
-.page-1 .arrow{
-display:none;
+.page-1 .arrow,
+.page1 .arrow{
+display:none !important;
 }
 
 .page-2{
@@ -1476,10 +1477,11 @@ display:none;
 display:none;
 }
 
-.reviews-toggle{
+.reviews-wrapper,
+.reviews-toggle,
+.reviews-stack{
 display:none;
 }
-
 .reviews-stack{
 display:flex;
 flex-direction:row;
@@ -1519,7 +1521,7 @@ padding-bottom:120px;
 }
 
 .page-6-footer{
-padding:0 20px -40px;
+padding:0 20px 0;
 }
 
 /* стрелка */
