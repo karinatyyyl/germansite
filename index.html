@@ -583,7 +583,9 @@ const blurPage1 = document.getElementById("blurPage1");
 
 if (arrow) {
 
-    if (currentPage === 5) {
+    const isMobile = window.innerWidth <= 768;
+
+    if ((currentPage === 1 && isMobile) || currentPage === 5) {
         arrow.style.display = 'none';
     } else {
         arrow.style.display = 'flex';
