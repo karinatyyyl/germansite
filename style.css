@@ -1489,9 +1489,9 @@ display:none;
 .page-6{
 padding-bottom:180px;
 }
+
 .page-6-footer{
-margin-top:160px;
-padding:0 20px 40px;
+bottom:-80px;
 }
 
 /* стрелка */
