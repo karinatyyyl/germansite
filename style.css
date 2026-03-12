@@ -1423,8 +1423,8 @@ padding:40px 20px;
 display:grid;
 grid-template-columns:1fr 1fr;
 gap:14px;
-padding:80px 20px 0;
-margin-top:0;
+padding:40px 20px 0;
+margin-top:40px;
 }
 
 .navigation-buttons .nav-btn{
@@ -1434,8 +1434,8 @@ justify-self:center;
 
 .navigation-buttons .nav-btn:last-child{
 grid-column:1 / span 2;
-justify-self:end;
-margin-right:10px;
+justify-self:center;
+transform:translateX(-10px);
 width:60%;
 }
 
@@ -1453,21 +1453,28 @@ padding-bottom:30px;
 /* картинки */
 
 .page-5-images{
+display:flex;
+justify-content:center;
+margin-top:40px;
+}
+
+.img-april{
+width:160px;
+}
+
+.img-tyl,
+.img-rin{
 display:none;
 }
 
 /* отзывы */
 
 .reviews-wrapper{
-position:relative;
-margin-top:-20px;
-display:flex;
-flex-direction:column;
-align-items:center;
+display:none;
 }
 
 .reviews-toggle{
-margin-bottom:20px;
+display:none;
 }
 
 .reviews-stack{
@@ -1509,7 +1516,7 @@ padding-bottom:120px;
 }
 
 .page-6-footer{
-padding:0 20px 10px;
+padding:0 20px 0;
 }
 
 /* стрелка */
